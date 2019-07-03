@@ -1,3 +1,5 @@
+http://gitimmersion.com/
+
 in order to track changes in chapter.txt i must add it to staging area
 that is an intermediate place where you can pick and choose which files inside your working
 directory that you want to commit.
@@ -95,6 +97,7 @@ git clone (url)
 
 https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff
 
+https://stackoverflow.com/questions/3651860/which-characters-are-illegal-within-a-branch-name
 git branch branchname => creates new branch
 
 git branch => it lists the branches
