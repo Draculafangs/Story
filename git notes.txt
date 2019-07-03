@@ -44,3 +44,69 @@ Date:   Wed Jul 3 06:27:10 2019 +0200
     initial commit
 
 git add .  adds everything in the current directory.
+-----------
+git status if there are changes to be staged and committed then you can look at diff
+between them and their last version.
+git diff 		shows differences in all files
+git diff filename 	shows differences in this file
+
+git checkout filename returns files to their previous state(version)
+
+----------
+…or create a new repository on the command line
+echo "# Story" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Draculafangs/Story.git
+git push -u origin master
+---
+…or push an existing repository from the command line
+git remote add origin https://github.com/Draculafangs/Story.git
+git push -u origin master
+
+master is the name of branch, master is default branch or main branch of all the commits
+origin is the name of your remote (people call it that by convention),it can be named
+anything else.
+
+
+https://github.com/StylishThemes/GitHub-Dark
+
+---
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+how does the remote and repoistory
+---
+gitignore to avoid uploading sensitive piece of information like api keys or passwords to
+remote repository (ex:aws key)
+
+touch .gitignore
+now open files and but the ignored file names each on a new line
+
+git rm --cached -r .
+
+-r recursive
+
+A collection of useful .gitignore templates
+https://github.com/github/gitignore
+
+git clone (url)
+
+https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff
+
+git branch branchname => creates new branch
+
+git branch => it lists the branches
+ex:
+  DifferentRoute
+* master
+
+* shows which branch we are currently on
+
+note : i had another foler which is a repoistory CrunchySubs in the current folder(repository)
+so when i created a new branch it switched to be that branch ???
+
+git checkout DifferentRoute
+Switched to branch 'DifferentRoute'
+
