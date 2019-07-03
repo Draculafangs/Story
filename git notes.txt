@@ -23,6 +23,7 @@ fatal: pathspec 'chapter' did not match any files
 
 git add chapter\ 1.txt
 ----
+Note a user and email in setting first
 git commit -m "initial commit" 
 
 to commit changes ,-m add a commit comment.
