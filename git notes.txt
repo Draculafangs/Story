@@ -26,7 +26,7 @@ fatal: pathspec 'chapter' did not match any files
 git add chapter\ 1.txt
 ----
 Note a user and email in setting first
-git commit -m "initial commit" 
+git commit -m "initial commit"
 
 to commit changes ,-m add a commit comment.
 
@@ -55,7 +55,7 @@ git diff filename 	shows differences in this file
 git checkout filename returns files to their previous state(version)
 
 ----------
-…or create a new repository on the command line
+ï¿½or create a new repository on the command line
 echo "# Story" >> README.md
 git init
 git add README.md
@@ -63,7 +63,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/Draculafangs/Story.git
 git push -u origin master
 ---
-…or push an existing repository from the command line
+ï¿½or push an existing repository from the command line
 git remote add origin https://github.com/Draculafangs/Story.git
 git push -u origin master
 
@@ -75,7 +75,7 @@ anything else.
 https://github.com/StylishThemes/GitHub-Dark
 
 ---
-…or import code from another repository
+ï¿½or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 how does the remote and repoistory
@@ -107,7 +107,7 @@ ex:
 
 * shows which branch we are currently on
 
-whenever the branch changes the files in working directory 
+whenever the branch changes the files in working directory
 
 note : i had another folder which is a repoistory CrunchySubs in the current working folder
 so when i created a new branch it became the new branch ???
