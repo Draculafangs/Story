@@ -220,7 +220,7 @@ footer a {
 
 @media screen and (max-width:426px) {
     header {
-        height: 100vh;
+        height: auto;
     }
     .c1 {
         float: none;
