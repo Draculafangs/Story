@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    /* color: white; */
+    background-image: url('../img/banner-bg.jpg');
+    height: 100vh;
+    padding: 0 10%;
+    color: white;
+}
+
+.c1 {
+    width: 100%;
+    position: relative;
+    float: left;
+    clear: right;
+}
+
+nav {
+    /* display: block;
+    float: right;
+    margin-bottom: 18px; */
+    padding: 50px;
+}
+
+.right_nav {
+    display: inline-block;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+
+/* nav div a {
+    color: #000;
+} */
+
+
+/* nav div a div */
+
+.dropDown {
+    display: inline-block;
+    /* color: white; */
+}
+
+.dropDownMenu {
+    background-color: white;
+    /* padding: 10px; */
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.dropDownMenu div {
+    margin: 10px;
+}
+
+.dropDownMenu a:hover {
+    color: mediumblue;
+}
+
+.dropDown:hover>.dropDownMenu {
+    display: block;
+}
+
+.dropDownMenu div a {
+    color: black;
+}
+
+.right_section {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.halfParent {
+    /* position: relative; */
+    display: inline-block;
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 15px 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn_light {
+    background-color: white;
+}
+
+.btn_purple {
+    background-color: purple;
+    color: white;
+}
+
+#features {
+    text-align: center;
+}
+
+.separator {
+    margin-top: 7%;
+}
+
+.grayed {
+    color: gray;
+}
+
+figure {
+    display: inline-block;
+    width: 18%;
+    border-radius: 2%;
+    margin: 1%;
+    /* border: 1px solid; */
+    box-shadow: 0 0 20px 1px gray;
+}
+
+figure>img {
+    padding: 10%;
+    width: auto;
+}
+
+figcaption {
+    background-color: #f9f9ff;
+    padding: 1% 5% 5%;
+}
+
+.occupyContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.about_right_section {
+    float: right;
+    /* padding-left: 1%; */
+    width: 49%;
+}
+
+.container {
+    margin: 0 25%;
+}
+
+.backImage {
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* background-; */
+    background-position: center center;
+}
+
+#UniqueFeatures {
+    background-image: url(../img/feature-bg.jpg);
+    padding: 8% 12%;
+    text-align: center;
+    color: white;
+}
+
+.featureCard {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    /* height: 90px; */
+    padding: 1% 2%;
+    margin: 15px;
+    text-align: left;
+    color: black;
+}
+
+.featureCard p {
+    font-size: 14px;
+}
+
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    color: white;
+    padding: 6% 12%12%;
+}
+
+footer>div>div {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 25%;
+    margin: auto 5%;
+}
+
+.middleSectionFooter {
+    max-width: 40%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn_sub {
+    border-radius: 5px;
+    border: none;
+}
+
+@media screen and (max-width:426px) {
+    header {
+        height: 100vh;
+    }
+    /* .c1 {
+        float: none;
+    } */
+    .right_section {
+        display: block;
+        width: auto;
+    }
+    .halfParent {
+        display: block;
+        width: 100%;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: 20;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 11.7px;
+    }
+    h5 {
+        font-size: 8.3px;
+    }
+    .featureCard p {
+        font-size: 6px;
+    }
+    p {
+        font-size: 7px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .c1 {
+        width: 100%;
+        position: relative;
+        float: left;
+        clear: right;
+    }
+    figure {
+        width: auto;
+    }
+    .about_right_section {
+        float: none;
+        /* padding-left: 1%; */
+        width: auto;
+        margin: 0 5%;
+    }
+    .container {
+        margin: 0 5%;
+    }
+    video {
+        width: 100%;
+        margin: 0;
+    }
+    .featureCard {
+        width: 50%;
+    }
+    .btn {
+        padding: 5px 7px;
+        font-size: xx-small;
+        /* font-weight: 200; */
+        border: none;
+    }
+}
