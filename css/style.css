@@ -27,7 +27,7 @@ nav {
 }
 
 .right_nav {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
 }
 
@@ -162,7 +162,7 @@ figcaption {
 }
 
 .backImage {
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-; */
     background-position: center center;
@@ -222,9 +222,9 @@ footer a {
     header {
         height: 100vh;
     }
-    /* .c1 {
+    .c1 {
         float: none;
-    } */
+    }
     .right_section {
         display: block;
         width: auto;
@@ -233,7 +233,7 @@ footer a {
         display: block;
         width: 100%;
     }
-    h1 {
+    /* h1 {
         font-size: 20px;
         font-weight: 20;
     }
@@ -245,22 +245,16 @@ footer a {
     }
     h5 {
         font-size: 8.3px;
-    }
-    .featureCard p {
+    } */
+    /* .featureCard p {
         font-size: 6px;
-    }
-    p {
+    } */
+    /* p {
         font-size: 7px;
-    }
+    } */
     img {
         width: 100%;
         height: auto;
-    }
-    .c1 {
-        width: 100%;
-        position: relative;
-        float: left;
-        clear: right;
     }
     figure {
         width: auto;
@@ -286,5 +280,15 @@ footer a {
         font-size: xx-small;
         /* font-weight: 200; */
         border: none;
+    }
+    footer {
+        text-align: center;
+    }
+    footer>div>div {
+        display: block;
+        max-width: 100%;
+    }
+    footer div {
+        display: block;
     }
 }
