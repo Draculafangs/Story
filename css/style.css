@@ -362,7 +362,7 @@ footer img {
     .log {
         /* display: flex; */
         /* width: 15%; */
-        /* height: inherit; */
+        height: auto;
         /* margin: 0 5%; */
     }
     .column {
