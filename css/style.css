@@ -123,8 +123,16 @@ h1 {
     margin-top: 7%;
 }
 
+.smallheight {
+    line-height: 5;
+}
+
 .grayed {
     color: gray;
+}
+
+.center-txt {
+    text-align: center;
 }
 
 figure {
@@ -147,7 +155,7 @@ figcaption {
 }
 
 .occupyContainer {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
@@ -159,6 +167,11 @@ figcaption {
 
 .container {
     margin: 0 25%;
+}
+
+.somepadding {
+    padding: 0 2%;
+    /* max-width: auto; */
 }
 
 .backImage {
@@ -191,10 +204,30 @@ figcaption {
     font-size: 14px;
 }
 
+.logos {
+    display: flex;
+    flex-flow: row;
+    margin: 0 10%;
+    justify-content: space-around;
+    /* flex-basis: 50%; */
+    /* align-items: center; */
+}
+
+.log {
+    /* display: flex; */
+    /* width: 15%; */
+    /* height: inherit; */
+    /* margin: 0 5%; */
+}
+
+.child {
+    /* align-self: left; */
+}
+
 footer {
     background-image: url(../img/footer-bg.jpg);
     color: white;
-    padding: 6% 12%12%;
+    padding: 6% 12%;
 }
 
 footer>div>div {
@@ -233,11 +266,11 @@ footer a {
         display: block;
         width: 100%;
     }
-    /* h1 {
-        font-size: 20px;
+    h1 {
+        font-size: 36px;
         font-weight: 20;
     }
-    h2 {
+    /*h2 {
         font-size: 15px;
     }
     h3 {
@@ -280,6 +313,15 @@ footer a {
         font-size: xx-small;
         /* font-weight: 200; */
         border: none;
+    }
+    .log {
+        /* display: flex; */
+        width: 15%;
+        /* height: inherit; */
+        /* margin: 0 5%; */
+    }
+    .column {
+        flex-flow: column;
     }
     footer {
         text-align: center;
